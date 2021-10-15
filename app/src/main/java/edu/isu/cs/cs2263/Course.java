@@ -1,16 +1,22 @@
 package edu.isu.cs.cs2263;
+import java.util.List;
+import java.util.ArrayList;
+
 
 public class Course {
     private int number;
     private String subject;
     private String title;
 
+    public Course(int number, String subject, String title){
+        setNumber(number);
+        setSubject(subject);
+        setTitle(title);
+
+    }
     public static void main(String[] args){
-
     }
-    public void course(){
 
-    }
 
     public int getNumber() {
         return number;
@@ -38,9 +44,6 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
-                "subject='" + subject + '\'' +
-                ", title='" + title + '\'' +
-                '}';
+        return getSubject() + " " + getNumber() + " " + getTitle();
     }
 }

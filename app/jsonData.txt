@@ -1,0 +1,3 @@
+{"firstName":"Isaac","lastName":"Griffith","courList":[{"number":1181,"subject":"CS","title":"Intro to Programming"},{"number":2263,"subject":"CS","title":"Advanced OO Programming"},{"number":4423,"subject":"CS","title":"Software Evolution"}]}
+{"firstName":"Bob","lastName":"Sampson","courList":[{"number":1181,"subject":"CS","title":"Intro to Programming"},{"number":2263,"subject":"CS","title":"Advanced OO Programming"}]}
+{"firstName":"Sarah","lastName":"James","courList":[{"number":4423,"subject":"CS","title":"Software Evolution"}]}
